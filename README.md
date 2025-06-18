@@ -7,13 +7,12 @@ The Piscine is designed to build a strong foundation in programming logic, probl
 **These are the files I submitted during my piscine, not necessarily all of them are correct, make sure to test and write you own codes!**
 
 ## 📁 Structure
-The repository is organized into folders by day or topic, for example:
+The repository is organized into folders by projects, for example:
 ```bash
-/Day01 - Basic syntax and functions
-/Day02 - Pointers and arrays
-/Day03 - Memory management and strings
-/Day04 - Recursion and algorithms
-/Day05 - Final projects
+/Shell00
+/C00
+/C01
+
 ```
 Each folder contains relevant `.c` and `.h` files along with any test files or Makefiles.
 
@@ -32,7 +31,7 @@ cc -Wall -Wextra -Werror filename.c -o output_name
 ```
 Replace filename.c with your source file(s).
 
-##📌 Notes
+## 📌 Notes
 - Follow 42 coding style guidelines in all projects.
 - Code is typically tested with provided Piscine testers or custom test scripts.
 - This repository is a personal reference and study tool; it’s recommended to understand and rewrite code yourself.
