@@ -25,11 +25,13 @@ int	ft_check(char c, char *printed)
 
 int	main(int argc, char **argv)
 {
-	char	printed[256];
+	char	printed[256] = {};
 	int	i;
 	int	j;
+	int	k;
 
 	i = 0;
+	k = 0;
 	if (argc == 3)
 	{
 		i = 0;
@@ -43,7 +45,8 @@ int	main(int argc, char **argv)
 					if (argv[1][i] == argv[2][j])
 					{
 						write(1, &argv[1][i], 1);
-						printed[i] = argv [1][i];
+						printed[k] = argv [1][i];
+						k++;
 						break ;
 					}
 					j++;
